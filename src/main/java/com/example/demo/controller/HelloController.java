@@ -13,4 +13,10 @@ public class HelloController {
         // message = "Hello, Vaibhav!";
         return new ResponseEntity("Hello, Vaibhav Patil!", HttpStatus.OK);
     }
+    @GetMapping("welcome")
+	String welcome() {
+
+		return "welcome to Icicibank";
+	}
+    
 }
