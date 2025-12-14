@@ -9,5 +9,7 @@ public class GetApiApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(GetApiApplication.class, args);
 	}
+	
+	
 
 }
